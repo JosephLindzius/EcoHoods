@@ -51,4 +51,10 @@ input.form-control {
 .grower:hover {
   transform: scale(1.1); }
 
+.card {
+  border: 1px solid black; }
+
+.custom-select {
+  border: 1px solid black; }
+
 /*# sourceMappingURL=style.css.map */
