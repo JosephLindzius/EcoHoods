@@ -12,6 +12,21 @@
   border-radius: 10px;
   font-size: 100px; }
 
+.images {
+  max-height: 80px; }
+
+.smartHouse {
+  max-height: 300px; }
+
+.smartNeighborhood {
+  width: 300px; }
+
+.links {
+  color: black; }
+  .links:hover {
+    color: #818181;
+    text-decoration: none; }
+
 #select {
   width: 50%; }
 
