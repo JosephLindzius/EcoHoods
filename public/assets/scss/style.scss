@@ -12,10 +12,18 @@
   color: black;
   text-decoration: none;
 }
-
 .userLink:hover {
   color: #000000;
   text-decoration: none;
+}
+
+
+#dropdown:focus{
+  box-shadow:none;
+}
+
+.fa.fa-star{
+  color:rgb(148, 148, 11) !important;
 }
 
 
@@ -27,4 +35,16 @@
 
 .custom-select{
   border: 1px solid black;
+}
+
+.text-green{
+  color: green;
+}
+
+.button-outline-success{
+  border-radius: 2rem;
+}
+
+.card-header{
+  background: none;
 }
