@@ -1,4 +1,4 @@
-photoArray = ["./public/assets/img/0.svg", "./public/assets/img/1.svg", "./public/assets/img/2.svg"];
+photoArray = ["./assets/img/0.svg", "./assets/img/1.svg", "./assets/img/2.svg"];
 let i = 0;
 setInterval(function() {
     console.log("soloHouse");
@@ -10,4 +10,4 @@ setInterval(function() {
          i = 0;
     }
 
-}, 200);
+}, 2000);
