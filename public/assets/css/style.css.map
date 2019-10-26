@@ -1,13 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACQA,AAAA,WAAW,CAAC;EAPV,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,KAAK;CAKjB;;AAED,AAAA,SAAS,CAAC;EAXR,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,KAAK;CASjB;;ACdD,AAAA,OAAO,CAAC;EAEN,KAAK,EAAE,GAAG;CACX;;AAED,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,MAAM;CACnB;;ACPD,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,IAAI;CACpB;;ACLD,AAAA,aAAa,CAAC,GAAG,CAAA;EACb,UAAU,EAAE,IAAI;CACnB;;AJGD,AAAA,YAAY,CAAC;EACX,gBAAgB,EAAE,KAAK;CACxB",
-    "sources": [
-        "../scss/style.scss",
-        "../scss/_dashboard.scss",
-        "../scss/_compare.scss",
-        "../scss/_device.scss",
-        "../scss/_navbar.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/_dashboard.scss","../scss/_compare.scss","../scss/_device.scss","../scss/_navbar.scss","../scss/_input-register.scss","../scss/style.scss"],"names":[],"mappings":"AAQA;EAPE;EACA;EACA;EACA;EACA;;;AAOF;EAXE;EACA;EACA;EACA;EACA;;;ACLF;EAEE;;;AAGF;EACE;;;ACNF;EACE;EACA;EACA;EACA;;;ACJF;EACI;;;ACDJ;EACI;EACA;EACA;EACA;;;ACGJ;EACE","file":"style.css"}
