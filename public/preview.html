@@ -100,7 +100,7 @@
                 <h4 class="card-title mt-4 mb-4">Add humidity sensors to your home</h4>
                 <p class="card-text mb-0">Current savings: <b>0</b> </p>
                 <p class="card-text">New savings: <b>230</b> (<span class="text-green">+30</span>)</p>
-                <p class="card-text mb-3 pb-5">Community satisfaction: 5 stars</p>
+                <p class="card-text mb-3 pb-5">Community satisfaction: 5 stars <i cla></i></p>
             </div>
         </div>
       </div>
@@ -129,48 +129,47 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script>
+
+      const selected = document.getElementById("dropdown");
+      const placeholder = document.getElementById("placeholder");
+  
+      const lights = document.getElementById("lights");
+      const humidity = document.getElementById("humidity");
+  
+      selected.addEventListener("click", function(){
+  
+        if(this.value !== "empty"){
+          const deviceWrapper = document.getElementById("devices");
+          deviceWrapper.classList.add("d-block");
+          placeholder.classList.add("d-none");
+        }
+  
+  
+        if(this.value == "lights"){
+  
+          lights.classList.add("d-block");
+          humidity.classList.remove("d-block");
+          humidity.classList.add("d-none");
+          console.log("lights selected");
+  
+        }
+  
+        if(this.value == "humidity"){
+          humidity.classList.add("d-block");
+          lights.classList.remove("d-block");
+          lights.classList.add("d-none");
+          console.log("humidity selected");
+  
+        }
+  
+      })
+      console.log(selected);
+      
+        </script>
 </body>
 
 
-<script>
 
-    const selected = document.getElementById("dropdown");
-    const placeholder = document.getElementById("placeholder");
-
-    const lights = document.getElementById("lights");
-    const humidity = document.getElementById("humidity");
-
-    selected.addEventListener("click", function(){
-
-      if(this.value !== "empty"){
-        const deviceWrapper = document.getElementById("devices");
-        deviceWrapper.classList.add("d-block");
-        placeholder.classList.add("d-none");
-      }
-
-
-      if(this.value == "lights"){
-
-        lights.classList.add("d-block");
-        humidity.classList.remove("d-block");
-        humidity.classList.add("d-none");
-        console.log("lights selected");
-
-      }
-
-      if(this.value == "humidity"){
-        humidity.classList.add("d-block");
-        lights.classList.remove("d-block");
-        lights.classList.add("d-none");
-        console.log("humidity selected");
-
-      }
-
-    })
-    console.log(selected);
-    
-      
-      
-      </script>
 
 </html>
