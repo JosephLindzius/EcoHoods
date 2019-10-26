@@ -48,29 +48,21 @@
 
 
   <h1 class="text-center mt-4">Add Device</h1>
+
   <br>
   <div class="d-flex">
     <div class="align-self-center mx-auto">
-      <button type="button" class="btn btn-outline-success text-center">Scan for new device</button>
+      <button type="button" id="deviceButton" class="btn btn-outline-success text-center">Scan for new device</button>
     </div>
   </div>
   <br><br>
   <h2 class="text-center mb-3">Devices</h2>
+  <div id="target"></div>
 
+<template id="tpl-device">
   <div class="devices mx-auto d-flex">
     <div class="d-flex flex-column py-4 pl-2">
-      <div class="pb-2">Device: <span>0393049</span></div>
-      <div class="pt-2">Status: <span class="text-success">connected</span></div>
-    </div>
-    <div class="d-flex ml-5">
-      <!-- Change width img in CSS 50px  -->
-      <img src="./assets/img/light.svg" alt="">
-    </div>
-  </div>
-  <br>
-  <div class="devices mx-auto d-flex">
-    <div class="d-flex flex-column py-4 pl-2">
-      <div class="pb-2">Device: <span>0265403</span></div>
+      <div class="pb-2">Device: <span id="deviceId"></span></div>
       <div class="pt-2">Status: <span class="text-success">connected</span></div>
     </div>
     <div class="d-flex ml-5">
@@ -78,16 +70,7 @@
     </div>
   </div>
   <br>
-  <div class="devices mx-auto d-flex">
-    <div class="d-flex flex-column py-4 pl-2">
-      <div class="pb-2">Device: <span>0678223</span></div>
-      <div class="pt-2">Status: <span class="text-success">connected</span></div>
-    </div>
-    <div class="d-flex ml-5">
-      <img src="./assets/img/light.svg" alt="">
-    </div>
-  </div>
-
+</template>
 
 
   <!-- Optional JavaScript -->
@@ -101,6 +84,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  <script src="./assets/scripts/script.js"></script>
 </body>
 
 </html>
