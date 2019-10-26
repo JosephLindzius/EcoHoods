@@ -29,9 +29,22 @@
 .links {
   color: black;
 }
+
 .links:hover {
-  color: #818181;
+  color: #f3f040;
   text-decoration: none;
+}
+
+.btn {
+  border: 1px solid #1BAF45;
+  background: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 19.5px;
+}
+
+.preview {
+  font-size: 18px;
 }
 
 #select {
@@ -61,7 +74,8 @@ input.form-control {
 }
 
 .grower:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .userLink {
@@ -75,7 +89,8 @@ input.form-control {
 }
 
 #dropdown:focus {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .fa.fa-star {
@@ -101,5 +116,4 @@ input.form-control {
 .card-header {
   background: none;
 }
-
 /*# sourceMappingURL=style.css.map */
