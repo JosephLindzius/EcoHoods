@@ -1,13 +1,13 @@
 photoArray = ["./assets/img/0.svg", "./assets/img/1.svg", "./assets/img/2.svg"];
 let i = 0;
-setInterval(function() {
-    console.log("soloHouse");
-    let img = document.getElementById('soloHouse');
+setInterval(function () {
+    console.log("smartHouse");
+    const img = document.getElementById('smartHouse');
     img.src = photoArray[i];
-    console.log(photoArray[i]);
+    console.log("img.src");
     i++;
     if (i > 2) {
-         i = 0;
+        i = 0;
     }
 
-}, 200);
+}, 1000);

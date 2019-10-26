@@ -13,3 +13,24 @@
 #scoreBox {
   @include box;
 }
+
+.images {
+  max-height: 80px;
+}
+
+.smartHouse {
+  max-height: 300px;
+}
+
+.smartNeighborhood {
+  width: 300px;
+}
+
+.links {
+  color: black;
+
+  &:hover {
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+  }
+}
