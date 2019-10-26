@@ -3,38 +3,31 @@
   height: 150px;
   border: solid 2px black;
   border-radius: 10px;
-  font-size: 100px;
-}
+  font-size: 100px; }
 
 #scoreBox {
   width: 200px;
   height: 150px;
   border: solid 2px black;
   border-radius: 10px;
-  font-size: 100px;
-}
+  font-size: 100px; }
 
 #select {
-  width: 50%;
-}
+  width: 50%; }
 
 .wrapper {
-  text-align: center;
-}
+  text-align: center; }
 
 .devices {
   width: 250px;
   height: 120px;
   border: solid 2px black;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 .navbar-brand img {
-  max-height: 70px;
-}
+  max-height: 70px; }
 
 .input-field {
-  background-color: brown;
-}
+  background-color: brown; }
 
 /*# sourceMappingURL=style.css.map */
