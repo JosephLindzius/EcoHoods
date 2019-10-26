@@ -74,6 +74,14 @@ input.form-control {
   text-decoration: none;
 }
 
+#dropdown:focus {
+  box-shadow: none;
+}
+
+.fa.fa-star {
+  color: #94940b !important;
+}
+
 .card {
   border: 1px solid black;
 }
