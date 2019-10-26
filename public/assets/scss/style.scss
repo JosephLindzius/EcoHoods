@@ -2,9 +2,8 @@
 @import 'compare';
 @import 'device';
 @import 'navbar';
-
 @import 'input-register';
 
-.input-field {
-  background-color: brown;
+.grower:hover {
+  transform: scale(1.1);
 }
