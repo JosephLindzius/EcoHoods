@@ -1,14 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACQA,AAAA,WAAW,CAAC;EAPV,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,KAAK;CAKjB;;AAED,AAAA,SAAS,CAAC;EAXR,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,KAAK;CASjB;;AAED,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,WAAW,CAAC;EACV,UAAU,EAAE,KAAK;CAClB;;AAED,AAAA,kBAAkB,CAAC;EACjB,KAAK,EAAE,KAAK;CACb;;AAED,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,KAAK;CAMb;;AAPD,AAGE,MAHI,AAGH,MAAM,CAAC;EACN,KAAK,EAAE,OAAkB;EACzB,eAAe,EAAE,IAAI;CACtB;;AClCH,AAAA,OAAO,CAAC;EAEN,KAAK,EAAE,GAAG;CACX;;AAED,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,MAAM;CACnB;;ACPD,AAAA,QAAQ,CAAC;EACP,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,IAAI;CACpB;;ACLD,AAAA,aAAa,CAAC,GAAG,CAAC;EACd,UAAU,EAAE,IAAI;CACnB;;ACFD,AAAA,KAAK,AAAA,aAAa,CAAA;EACd,MAAM,EAAC,eAAe;EACtB,aAAa,EAAE,0BAA0B;EACzC,aAAa,EAAE,YAAY;EAC3B,UAAU,EAAE,MAAM;CACrB;;ALED,AAAA,YAAY,CAAC;EACX,gBAAgB,EAAE,KAAK;CACxB",
-    "sources": [
-        "../scss/style.scss",
-        "../scss/_dashboard.scss",
-        "../scss/_compare.scss",
-        "../scss/_device.scss",
-        "../scss/_navbar.scss",
-        "../scss/_input-register.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["../scss/_dashboard.scss","../scss/_compare.scss","../scss/_device.scss","../scss/_navbar.scss","../scss/_input-register.scss","../scss/style.scss"],"names":[],"mappings":"AAQA;EAPE;EACA;EACA;EACA;EACA;;;AAOF;EAXE;EACA;EACA;EACA;EACA;;;AAWF;EACE;;;AAGF;EACE;;;AAGF;EACE;;;AAGF;EACE;;AAEA;EACE;EACA;;;ACjCJ;EAEE;;;AAGF;EACE;;;ACNF;EACE;EACA;EACA;EACA;;;ACJF;EACI;;;ACDJ;EACI;EACA;EACA;EACA;;;ACGJ;EACE","file":"style.css"}
