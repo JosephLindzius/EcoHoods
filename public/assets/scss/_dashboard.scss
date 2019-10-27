@@ -30,7 +30,18 @@
   color: black;
 
   &:hover {
-    color: rgb(129, 129, 129);
+    color: rgb(243, 240, 64);
     text-decoration: none;
   }
+}
+
+.btn {
+  border: 1px solid #1BAF45;
+  background: none;
+  box-sizing: border-box;
+  border-radius: 19.5px;
+}
+
+.preview {
+  font-size: 18px;
 }

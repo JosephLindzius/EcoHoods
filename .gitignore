@@ -8,6 +8,3 @@ credentials.json
 localdev-config.json
 .nyc*
 server/localdev-config.json
-public/assets/css/style.css
-*.css
-*.css.map
